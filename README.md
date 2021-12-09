@@ -1,1 +1,2 @@
-## go-hd
+## go-hdwallet
+
