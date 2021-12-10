@@ -1,3 +1,3 @@
 ## go-hdwallet
 
-A multi-cryptocurrency HD walle
+A multi-cryptocurrency HD wallet implementate
