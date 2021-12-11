@@ -6,4 +6,6 @@ A multi-cryptocurrency HD wallet implementated by golang.
 
 - BTC
 - LTC
-- DOG
+- DOGE
+- DASH
+- ET
