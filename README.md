@@ -1,3 +1,3 @@
 ## go-hdwallet
 
-A multi-cryptocurrency HD wallet implementate
+A multi-cryptocurrency HD wallet implementated by golan
