@@ -2,4 +2,6 @@
 
 A multi-cryptocurrency HD wallet implementated by golang.
 
-## supporte
+## supported coins
+
+- B
