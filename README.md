@@ -11,4 +11,5 @@ A multi-cryptocurrency HD wallet implementated by golang.
 - ETH
 - ETC
 - BCH
-- 
+- QTUM
+- USD
