@@ -16,4 +16,7 @@ A multi-cryptocurrency HD wallet implementated by golang.
 - IOST
 - USDC
 
-## insta
+## install
+
+```sh
+go g
