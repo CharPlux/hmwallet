@@ -19,4 +19,4 @@ A multi-cryptocurrency HD wallet implementated by golang.
 ## install
 
 ```sh
-go get -v -u
+go get -v -u github.c
