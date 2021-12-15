@@ -19,4 +19,7 @@ A multi-cryptocurrency HD wallet implementated by golang.
 ## install
 
 ```sh
-go get -v -u github.com/foxnut/go-hdwal
+go get -v -u github.com/foxnut/go-hdwallet
+```
+
+##
