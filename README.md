@@ -30,4 +30,4 @@ package main
 import (
     "fmt"
 
-    "github.c
+    "github.com/foxnut/g
