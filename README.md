@@ -25,4 +25,4 @@ go get -v -u github.com/foxnut/go-hdwallet
 ## example
 
 ```go
-pa
+package ma
