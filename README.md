@@ -34,4 +34,4 @@ import (
 )
 
 var (
-    mnemo
+    mnemonic =
