@@ -28,3 +28,5 @@ go get -v -u github.com/foxnut/go-hdwallet
 package main
 
 import (
+    "fmt"
+
