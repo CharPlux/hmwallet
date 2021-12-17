@@ -33,4 +33,5 @@ import (
     "github.com/foxnut/go-hdwallet"
 )
 
-var
+var (
+    mnemo
