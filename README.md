@@ -30,4 +30,7 @@ package main
 import (
     "fmt"
 
-    "github.com/foxnut/g
+    "github.com/foxnut/go-hdwallet"
+)
+
+var
