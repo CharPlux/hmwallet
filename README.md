@@ -34,4 +34,4 @@ import (
 )
 
 var (
-    mnemonic = "range she
+    mnemonic = "range sheriff try
