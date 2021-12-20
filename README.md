@@ -34,4 +34,4 @@ import (
 )
 
 var (
-    mnemonic = "range sheriff try enroll deer over ten level bring displ
+    mnemonic = "range sheriff try enroll deer over ten level bring display stamp 
