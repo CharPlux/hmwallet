@@ -38,4 +38,4 @@ var (
 )
 
 func main() {
-    master, err :
+    master, err := hdwallet.N
