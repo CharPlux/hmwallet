@@ -38,4 +38,5 @@ var (
 )
 
 func main() {
-    master, err := hdwallet.N
+    master, err := hdwallet.NewKey(
+     
