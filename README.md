@@ -41,4 +41,5 @@ func main() {
     master, err := hdwallet.NewKey(
         hdwallet.Mnemonic(mnemonic),
     )
-    if err != nil 
+    if err != nil {
+        p
