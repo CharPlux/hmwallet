@@ -39,4 +39,4 @@ var (
 
 func main() {
     master, err := hdwallet.NewKey(
-        hdwallet.Mnemoni
+        hdwallet.Mnemonic(mnemonic)
