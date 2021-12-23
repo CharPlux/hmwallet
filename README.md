@@ -42,4 +42,5 @@ func main() {
         hdwallet.Mnemonic(mnemonic),
     )
     if err != nil {
-        p
+        panic(err)
+    }
