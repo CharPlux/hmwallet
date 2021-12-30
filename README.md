@@ -46,4 +46,4 @@ func main() {
     }
 
     // BTC: 1AwEPfoojHnKrhgt1vfuZAhrvPrmz7Rh4
-    wa
+    wallet, _ :
