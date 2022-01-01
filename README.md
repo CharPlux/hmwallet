@@ -46,4 +46,4 @@ func main() {
     }
 
     // BTC: 1AwEPfoojHnKrhgt1vfuZAhrvPrmz7Rh4
-    wallet, _ := master.GetWallet(hdwall
+    wallet, _ := master.GetWallet(hdwallet.CoinType(
