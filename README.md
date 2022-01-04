@@ -49,4 +49,5 @@ func main() {
     wallet, _ := master.GetWallet(hdwallet.CoinType(hdwallet.BTC), hdwallet.AddressIndex(1))
     address, _ := wallet.GetAddress()
     addressP2WPKH, _ := wallet.GetKey().AddressP2WPKH()
-    addressP2WPKHInP2SH, _ := wallet.GetKey().AddressP2WPKHInP2SH
+    addressP2WPKHInP2SH, _ := wallet.GetKey().AddressP2WPKHInP2SH()
+    fmt.Prin
