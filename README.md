@@ -50,4 +50,4 @@ func main() {
     address, _ := wallet.GetAddress()
     addressP2WPKH, _ := wallet.GetKey().AddressP2WPKH()
     addressP2WPKHInP2SH, _ := wallet.GetKey().AddressP2WPKHInP2SH()
-    fmt.Println("BTC: ", address, addressP2WPKH, ad
+    fmt.Println("BTC: ", address, addressP2WPKH, addressP2WPK
