@@ -52,4 +52,4 @@ func main() {
     addressP2WPKHInP2SH, _ := wallet.GetKey().AddressP2WPKHInP2SH()
     fmt.Println("BTC: ", address, addressP2WPKH, addressP2WPKHInP2SH)
 
-    // BCH:
+    // BCH: 1CSBT18sjcCwLCpm
