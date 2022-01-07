@@ -53,4 +53,4 @@ func main() {
     fmt.Println("BTC: ", address, addressP2WPKH, addressP2WPKHInP2SH)
 
     // BCH: 1CSBT18sjcCwLCpmnnyN5iqLc46Qx7CC91
-    wallet, _ = master.Get
+    wallet, _ = master.GetWallet(hdwall
