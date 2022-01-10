@@ -59,4 +59,4 @@ func main() {
     fmt.Println("BCH: ", address, addressBCH)
 
     // LTC: LLCaMFT8AKjDTvz1Ju8JoyYXxuug4PZZmS
-    wallet, _ = master.GetWallet(h
+    wallet, _ = master.GetWallet(hdwallet.CoinTy
