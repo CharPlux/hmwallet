@@ -58,3 +58,4 @@ func main() {
     addressBCH, _ := wallet.GetKey().AddressBCH()
     fmt.Println("BCH: ", address, addressBCH)
 
+    // LTC: L
