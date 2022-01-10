@@ -56,4 +56,5 @@ func main() {
     wallet, _ = master.GetWallet(hdwallet.CoinType(hdwallet.BCH))
     address, _ = wallet.GetAddress()
     addressBCH, _ := wallet.GetKey().AddressBCH()
-    fmt.Println("BCH: ", address, addre
+    fmt.Println("BCH: ", address, addressBCH)
+
