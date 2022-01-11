@@ -61,4 +61,4 @@ func main() {
     // LTC: LLCaMFT8AKjDTvz1Ju8JoyYXxuug4PZZmS
     wallet, _ = master.GetWallet(hdwallet.CoinType(hdwallet.LTC))
     address, _ = wallet.GetAddress()
-    fmt.Println("
+    fmt.Println("LTC: ", ad
