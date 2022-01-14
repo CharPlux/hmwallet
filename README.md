@@ -63,4 +63,5 @@ func main() {
     address, _ = wallet.GetAddress()
     fmt.Println("LTC: ", address)
 
-    // DOGE: DHLA3rJcCjG2tQwvnmoJzD5Ej7dBT
+    // DOGE: DHLA3rJcCjG2tQwvnmoJzD5Ej7dBTQqhHK
+    wall
