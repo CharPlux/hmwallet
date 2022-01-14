@@ -64,4 +64,4 @@ func main() {
     fmt.Println("LTC: ", address)
 
     // DOGE: DHLA3rJcCjG2tQwvnmoJzD5Ej7dBTQqhHK
-    wall
+    wallet, _ = m
