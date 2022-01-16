@@ -64,4 +64,4 @@ func main() {
     fmt.Println("LTC: ", address)
 
     // DOGE: DHLA3rJcCjG2tQwvnmoJzD5Ej7dBTQqhHK
-    wallet, _ = master.GetWallet(hdwallet.C
+    wallet, _ = master.GetWallet(hdwallet.CoinType(hdwal
