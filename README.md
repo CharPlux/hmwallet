@@ -68,4 +68,4 @@ func main() {
     address, _ = wallet.GetAddress()
     fmt.Println("DOGE:", address)
 
-    //
+    // ETH: 0x37
