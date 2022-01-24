@@ -70,4 +70,4 @@ func main() {
 
     // ETH: 0x37039021cBA199663cBCb8e86bB63576991A28C1
     wallet, _ = master.GetWallet(hdwallet.CoinType(hdwallet.ETH))
-    addres
+    address, _ = wallet.
