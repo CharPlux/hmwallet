@@ -72,3 +72,5 @@ func main() {
     wallet, _ = master.GetWallet(hdwallet.CoinType(hdwallet.ETH))
     address, _ = wallet.GetAddress()
     fmt.Println("ETH: ", address)
+
+    // 
