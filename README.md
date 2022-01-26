@@ -73,4 +73,4 @@ func main() {
     address, _ = wallet.GetAddress()
     fmt.Println("ETH: ", address)
 
-    // ETC: 0x480
+    // ETC: 0x480C69E014C7f018dAbF
