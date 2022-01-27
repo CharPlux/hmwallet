@@ -74,4 +74,4 @@ func main() {
     fmt.Println("ETH: ", address)
 
     // ETC: 0x480C69E014C7f018dAbF17A98273e90f0b0680cf
-    wallet, _ = master.GetWallet(hdwallet.
+    wallet, _ = master.GetWallet(hdwallet.CoinType(hdwa
