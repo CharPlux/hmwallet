@@ -78,4 +78,4 @@ func main() {
     address, _ = wallet.GetAddress()
     fmt.Println("ETC: ", address)
 }
-`
+```
