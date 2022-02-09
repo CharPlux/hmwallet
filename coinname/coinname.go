@@ -1,2 +1,4 @@
 package coinname
 
+const (
+	U
