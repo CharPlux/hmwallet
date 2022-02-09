@@ -1,1 +1,2 @@
-package c
+package coinname
+
