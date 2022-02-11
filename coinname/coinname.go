@@ -1,4 +1,4 @@
 package coinname
 
 const (
-	U
+	USDT = "USD
