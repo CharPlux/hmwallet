@@ -2,4 +2,4 @@ package coinname
 
 const (
 	USDT = "USDT"
-	BTC  
+	BTC  = "B
