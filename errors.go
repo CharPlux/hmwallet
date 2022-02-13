@@ -1,4 +1,8 @@
 package hdwallet
 
 import (
-	"errors
+	"errors"
+)
+
+// errors
+va
