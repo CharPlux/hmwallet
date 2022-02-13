@@ -1,1 +1,4 @@
-package hdwall
+package hdwallet
+
+import (
+	"errors
