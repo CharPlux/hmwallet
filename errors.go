@@ -6,4 +6,4 @@ import (
 
 // errors
 var (
-	ErrCoinTypeU
+	ErrCoinTypeUnknow = err
