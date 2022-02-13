@@ -31,3 +31,14 @@ const (
 
 	// btc token
 	USDT = BTCToken + 1
+
+	// eth token
+	IOST = ETHToken + 1
+	USDC = ETHToken + 2
+)
+
+var coinTypes = map[uint32]uint32{
+	USDT: BTC,
+	IOST: ETH,
+	USDC: ETH,
+}
