@@ -5,4 +5,5 @@ import (
 )
 
 // errors
-va
+var (
+	ErrCoinTypeU
