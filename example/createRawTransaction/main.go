@@ -49,3 +49,24 @@ func (u *utxo) Signature(tx *wire.MsgTx, index int) error {
 	}
 
 	script, err := txscript.PayToAddrScript(addr)
+	if err != nil {
+		return err
+	}
+
+	wif, err := btcutil.NewWIF(u.key.Private, u.key.Opt.Params, false)
+	if err != nil {
+		return err
+	}
+
+	sig, err := txscript.SignatureScript(tx, index, script, txscript.SigHashAll, wif.PrivKey, false)
+	if err != nil {
+		return err
+	}
+
+	tx.TxIn[index].SignatureScript = sig
+	return nil
+}
+
+// receiver is who and how much you want sent coins
+type receiver struct {
+	net     *chaincfg.Params
