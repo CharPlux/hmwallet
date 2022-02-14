@@ -6,4 +6,4 @@ import (
 
 // errors
 var (
-	ErrCoinTypeUnknow = errors.New
+	ErrCoinTypeUnknow = errors.New("unknow coin ty
