@@ -39,3 +39,13 @@ func (u *utxo) ToTxIn() (*wire.TxIn, error) {
 
 func (u *utxo) Signature(tx *wire.MsgTx, index int) error {
 	address, err := u.key.AddressBTC()
+	if err != nil {
+		return err
+	}
+
+	addr, err := btcutil.DecodeAddress(address, u.key.Opt.Params)
+	if err != nil {
+		return err
+	}
+
+	script, err := txscript.PayToAddrScript(addr)
