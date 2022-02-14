@@ -32,3 +32,10 @@ func (u *utxo) ToTxIn() (*wire.TxIn, error) {
 	if err != nil {
 		return nil, err
 	}
+
+	outPoint := wire.NewOutPoint(hash, u.index)
+	return wire.NewTxIn(outPoint, nil, nil), nil
+}
+
+func (u *utxo) Signature(tx *wire.MsgTx, index int) error {
+	address, err := u.key.AddressBTC()
