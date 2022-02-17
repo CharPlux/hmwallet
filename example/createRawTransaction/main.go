@@ -70,3 +70,12 @@ func (u *utxo) Signature(tx *wire.MsgTx, index int) error {
 // receiver is who and how much you want sent coins
 type receiver struct {
 	net     *chaincfg.Params
+	address string // receiver address. example: mxLBntJAV4dF977jJjN6uhT9er9KKeMEgK (BTC Testnet)
+	amount  int64  // satoshis amount
+}
+
+func (r *receiver) ToTxOut() (*wire.TxOut, error) {
+	addr, err := btcutil.DecodeAddress(r.address, r.net)
+	if err != nil {
+		return nil, err
+	}
