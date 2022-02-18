@@ -95,3 +95,11 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+
+	wallet, err := master.GetWallet(
+		hdwallet.CoinType(hdwallet.BTCTestnet),
+		hdwallet.AddressIndex(1),
+	)
+	if err != nil {
+		panic(err)
+	}
