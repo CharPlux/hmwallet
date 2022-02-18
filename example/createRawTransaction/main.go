@@ -79,3 +79,8 @@ func (r *receiver) ToTxOut() (*wire.TxOut, error) {
 	if err != nil {
 		return nil, err
 	}
+
+	script, err := txscript.PayToAddrScript(addr)
+	if err != nil {
+		return nil, err
+	}
