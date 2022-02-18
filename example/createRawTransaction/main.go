@@ -84,3 +84,14 @@ func (r *receiver) ToTxOut() (*wire.TxOut, error) {
 	if err != nil {
 		return nil, err
 	}
+
+	return wire.NewTxOut(r.amount, script), nil
+}
+
+func main() {
+	master, err := hdwallet.NewKey(
+		hdwallet.Mnemonic(mnemonic),
+	)
+	if err != nil {
+		panic(err)
+	}
