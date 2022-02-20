@@ -103,3 +103,21 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+
+	key := wallet.GetKey()
+
+	senders := []*utxo{
+		{key: key, hash: "27b5ae231bc5a421b300095184b6b44c66f3ac3d3b6db1e7291a7bf27192946f", index: 0, amount: 990000},
+	}
+
+	receivers := []*receiver{
+		{net: key.Opt.Params, address: "mz5otQWaaPmWEydGw9gjfaHxSKhHX6Fgj5", amount: 990000},
+	}
+
+	tx := wire.NewMsgTx(wire.TxVersion)
+
+	for _, s := range senders {
+		in, err := s.ToTxIn()
+		if err != nil {
+			panic(err)
+		}
