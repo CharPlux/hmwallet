@@ -121,3 +121,12 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
+
+		tx.AddTxIn(in)
+	}
+
+	for _, r := range receivers {
+		out, err := r.ToTxOut()
+		if err != nil {
+			panic(err)
+		}
