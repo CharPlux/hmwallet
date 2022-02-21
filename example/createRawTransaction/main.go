@@ -130,3 +130,17 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
+
+		tx.AddTxOut(out)
+	}
+
+	for i, s := range senders {
+		if err := s.Signature(tx, i); err != nil {
+			panic(err)
+		}
+	}
+
+	buf := bytes.NewBuffer(make([]byte, 0, tx.SerializeSize()))
+	tx.Serialize(buf)
+	fmt.Println("Transaction:", hex.EncodeToString(buf.Bytes()))
+}
