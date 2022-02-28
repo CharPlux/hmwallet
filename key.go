@@ -18,3 +18,16 @@ type Key struct {
 	Extended *hdkeychain.ExtendedKey
 
 	// for btc
+	Private *btcec.PrivateKey
+	Public  *btcec.PublicKey
+
+	// for eth
+	PrivateECDSA *ecdsa.PrivateKey
+	PublicECDSA  *ecdsa.PublicKey
+}
+
+// NewKey creates a master key
+// params: [Mnemonic], [Password], [Language], [Seed]
+func NewKey(opts ...Option) (*Key, error) {
+	var (
+		err error
