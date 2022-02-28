@@ -59,3 +59,16 @@ func NewKey(opts ...Option) (*Key, error) {
 
 	return key, nil
 }
+
+func (k *Key) init() error {
+	var err error
+
+	k.Private, err = k.Extended.ECPrivKey()
+	if err != nil {
+		return err
+	}
+
+	k.Public, err = k.Extended.ECPubKey()
+	if err != nil {
+		return err
+	}
