@@ -46,3 +46,16 @@ func NewKey(opts ...Option) (*Key, error) {
 	if err != nil {
 		return nil, err
 	}
+
+	key := &Key{
+		Opt:      o,
+		Extended: extended,
+	}
+
+	err = key.init()
+	if err != nil {
+		return nil, err
+	}
+
+	return key, nil
+}
