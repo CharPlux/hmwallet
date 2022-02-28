@@ -31,3 +31,18 @@ type Key struct {
 func NewKey(opts ...Option) (*Key, error) {
 	var (
 		err error
+		o   = newOptions(opts...)
+	)
+
+	if len(o.Seed) <= 0 {
+		o.Seed, err = NewSeed(o.Mnemonic, o.Password, o.Language)
+	}
+
+	if err != nil {
+		return nil, err
+	}
+
+	extended, err := hdkeychain.NewMaster(o.Seed, o.Params)
+	if err != nil {
+		return nil, err
+	}
