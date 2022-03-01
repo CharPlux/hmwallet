@@ -108,3 +108,17 @@ func (k *Key) GetChildKey(opts ...Option) (*Key, error) {
 	err = key.init()
 	if err != nil {
 		return nil, err
+	}
+
+	return key, nil
+}
+
+// GetWallet return wallet from master key
+// params: [Purpose], [CoinType], [Account], [Change], [AddressIndex], [Path]
+func (k *Key) GetWallet(opts ...Option) (Wallet, error) {
+	key, err := k.GetChildKey(opts...)
+	if err != nil {
+		return nil, err
+	}
+
+	coin, ok := coins[key.Opt.CoinType]
