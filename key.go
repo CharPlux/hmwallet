@@ -97,3 +97,14 @@ func (k *Key) GetChildKey(opts ...Option) (*Key, error) {
 		extended, err = extended.Child(i)
 		if err != nil {
 			return nil, err
+		}
+	}
+
+	key := &Key{
+		Opt:      o,
+		Extended: extended,
+	}
+
+	err = key.init()
+	if err != nil {
+		return nil, err
