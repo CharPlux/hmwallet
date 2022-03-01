@@ -72,3 +72,17 @@ func (k *Key) init() error {
 	if err != nil {
 		return err
 	}
+
+	k.PrivateECDSA = k.Private.ToECDSA()
+	k.PublicECDSA = &k.PrivateECDSA.PublicKey
+	return nil
+}
+
+// GetChildKey return a key from master key
+// params: [Purpose], [CoinType], [Account], [Change], [AddressIndex], [Path]
+func (k *Key) GetChildKey(opts ...Option) (*Key, error) {
+	var (
+		err error
+		o   = newOptions(opts...)
+		no  = o
+	)
