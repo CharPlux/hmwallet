@@ -122,3 +122,14 @@ func (k *Key) GetWallet(opts ...Option) (Wallet, error) {
 	}
 
 	coin, ok := coins[key.Opt.CoinType]
+	if !ok {
+		return nil, ErrCoinTypeUnknow
+	}
+
+	return coin(key), nil
+}
+
+// PrivateHex generate private key to string by hex
+func (k *Key) PrivateHex() string {
+	return hex.EncodeToString(k.Private.Serialize())
+}
