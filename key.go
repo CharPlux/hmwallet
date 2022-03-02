@@ -167,3 +167,19 @@ func (k *Key) PublicHash() ([]byte, error) {
 func (k *Key) AddressBTC() (string, error) {
 	address, err := k.Extended.Address(k.Opt.Params)
 	if err != nil {
+		return "", err
+	}
+
+	return address.EncodeAddress(), nil
+}
+
+// AddressBCH generate public key to bch style address
+func (k *Key) AddressBCH() (string, error) {
+	address, err := k.Extended.Address(k.Opt.Params)
+	if err != nil {
+		return "", err
+	}
+
+	addr, err := bchutil.NewCashAddressPubKeyHash(address.ScriptAddress(), k.Opt.Params)
+	if err != nil {
+		return "", err
