@@ -183,3 +183,16 @@ func (k *Key) AddressBCH() (string, error) {
 	addr, err := bchutil.NewCashAddressPubKeyHash(address.ScriptAddress(), k.Opt.Params)
 	if err != nil {
 		return "", err
+	}
+
+	data := addr.EncodeAddress()
+	prefix := bchutil.Prefixes[k.Opt.Params.Name]
+	return prefix + ":" + data, nil
+}
+
+// AddressP2WPKH generate public key to p2wpkh style address
+func (k *Key) AddressP2WPKH() (string, error) {
+	pubHash, err := k.PublicHash()
+	if err != nil {
+		return "", err
+	}
