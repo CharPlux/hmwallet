@@ -151,3 +151,19 @@ func (k *Key) PublicHex(compress bool) string {
 	}
 
 	return hex.EncodeToString(k.Public.SerializeUncompressed())
+}
+
+// PublicHash generate public key by hash160
+func (k *Key) PublicHash() ([]byte, error) {
+	address, err := k.Extended.Address(k.Opt.Params)
+	if err != nil {
+		return nil, err
+	}
+
+	return address.ScriptAddress(), nil
+}
+
+// AddressBTC generate public key to btc style address
+func (k *Key) AddressBTC() (string, error) {
+	address, err := k.Extended.Address(k.Opt.Params)
+	if err != nil {
