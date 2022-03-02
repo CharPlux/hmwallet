@@ -133,3 +133,21 @@ func (k *Key) GetWallet(opts ...Option) (Wallet, error) {
 func (k *Key) PrivateHex() string {
 	return hex.EncodeToString(k.Private.Serialize())
 }
+
+// PrivateWIF generate private key to string by wif
+func (k *Key) PrivateWIF(compress bool) (string, error) {
+	wif, err := btcutil.NewWIF(k.Private, k.Opt.Params, compress)
+	if err != nil {
+		return "", err
+	}
+
+	return wif.String(), nil
+}
+
+// PublicHex generate public key to string by hex
+func (k *Key) PublicHex(compress bool) string {
+	if compress {
+		return hex.EncodeToString(k.Public.SerializeCompressed())
+	}
+
+	return hex.EncodeToString(k.Public.SerializeUncompressed())
