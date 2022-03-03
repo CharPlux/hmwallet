@@ -226,3 +226,6 @@ func (k *Key) AddressP2WPKHInP2SH() (string, error) {
 	if err != nil {
 		return "", err
 	}
+
+	return addr1.EncodeAddress(), nil
+}
