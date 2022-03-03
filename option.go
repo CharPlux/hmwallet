@@ -29,3 +29,22 @@ type Option func(*Options)
 
 // Options of key
 type Options struct {
+	Params *chaincfg.Params
+
+	// master key options
+	Mnemonic string
+	Password string
+	Language string
+	Seed     []byte
+
+	// child key options
+	Purpose      uint32
+	CoinType     uint32
+	Account      uint32
+	Change       uint32
+	AddressIndex uint32
+}
+
+func newOptions(opts ...Option) *Options {
+	opt := &Options{
+		Params:       DefaultParams,
