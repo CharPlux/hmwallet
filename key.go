@@ -215,3 +215,14 @@ func (k *Key) AddressP2WPKHInP2SH() (string, error) {
 	addr, err := btcutil.NewAddressWitnessPubKeyHash(pubHash, k.Opt.Params)
 	if err != nil {
 		return "", err
+	}
+
+	script, err := txscript.PayToAddrScript(addr)
+	if err != nil {
+		return "", err
+	}
+
+	addr1, err := btcutil.NewAddressScriptHash(script, k.Opt.Params)
+	if err != nil {
+		return "", err
+	}
