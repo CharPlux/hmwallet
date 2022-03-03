@@ -22,3 +22,15 @@ func NewMnemonic(length int, language string) (string, error) {
 	if length < 12 {
 		length = 12
 	}
+
+	if length > 24 {
+		length = 24
+	}
+
+	entropy, err := bip39.NewEntropy(length / 3 * 32)
+	if err != nil {
+		return "", err
+	}
+
+	return bip39.NewMnemonic(entropy)
+}
