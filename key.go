@@ -207,3 +207,11 @@ func (k *Key) AddressP2WPKH() (string, error) {
 
 // AddressP2WPKHInP2SH generate public key to p2wpkh nested within p2sh style address
 func (k *Key) AddressP2WPKHInP2SH() (string, error) {
+	pubHash, err := k.PublicHash()
+	if err != nil {
+		return "", err
+	}
+
+	addr, err := btcutil.NewAddressWitnessPubKeyHash(pubHash, k.Opt.Params)
+	if err != nil {
+		return "", err
