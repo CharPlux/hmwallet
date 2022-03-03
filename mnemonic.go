@@ -34,3 +34,9 @@ func NewMnemonic(length int, language string) (string, error) {
 
 	return bip39.NewMnemonic(entropy)
 }
+
+// NewSeed creates a hashed seed
+func NewSeed(mnemonic, password, language string) ([]byte, error) {
+	setLanguage(language)
+	return bip39.NewSeedWithErrorChecking(mnemonic, password)
+}
