@@ -88,3 +88,17 @@ func Mnemonic(m string) Option {
 		o.Mnemonic = m
 	}
 }
+
+// Password set to options
+func Password(p string) Option {
+	return func(o *Options) {
+		o.Password = p
+	}
+}
+
+// Language set to options
+func Language(l string) Option {
+	return func(o *Options) {
+		o.Language = l
+	}
+}
