@@ -63,3 +63,17 @@ func newOptions(opts ...Option) *Options {
 
 	return opt
 }
+
+// GetPath return path in bip44 style
+func (o *Options) GetPath() []uint32 {
+	return []uint32{
+		o.Purpose,
+		o.CoinType,
+		o.Account,
+		o.Change,
+		o.AddressIndex,
+	}
+}
+
+// Params set to options
+func Params(p *chaincfg.Params) Option {
