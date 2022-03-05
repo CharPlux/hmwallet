@@ -48,3 +48,18 @@ type Options struct {
 func newOptions(opts ...Option) *Options {
 	opt := &Options{
 		Params:       DefaultParams,
+		Password:     DefaultPassword,
+		Language:     DefaultLanguage,
+		Purpose:      DefaultPurpose,
+		CoinType:     DefaultCoinType,
+		Account:      DefaultAccount,
+		Change:       DefaultChange,
+		AddressIndex: DefaultAddressIndex,
+	}
+
+	for _, o := range opts {
+		o(opt)
+	}
+
+	return opt
+}
