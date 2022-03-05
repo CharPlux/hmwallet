@@ -125,3 +125,15 @@ func CoinType(c uint32) Option {
 }
 
 // Account set to options
+func Account(a uint32) Option {
+	return func(o *Options) {
+		o.Account = a
+	}
+}
+
+// Change set to options
+func Change(c uint32) Option {
+	return func(o *Options) {
+		o.Change = c
+	}
+}
