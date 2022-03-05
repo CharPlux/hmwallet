@@ -137,3 +137,17 @@ func Change(c uint32) Option {
 		o.Change = c
 	}
 }
+
+// AddressIndex set to options
+func AddressIndex(a uint32) Option {
+	return func(o *Options) {
+		o.AddressIndex = a
+	}
+}
+
+// Path set to options
+// example: m/44'/0'/0'/0/0
+// example: m/Purpose'/CoinType'/Account'/Change/AddressIndex
+func Path(path string) Option {
+	return func(o *Options) {
+		path = strings.TrimPrefix(path, "m/")
