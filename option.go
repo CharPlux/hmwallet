@@ -102,3 +102,15 @@ func Language(l string) Option {
 		o.Language = l
 	}
 }
+
+// Seed set to options
+func Seed(s []byte) Option {
+	return func(o *Options) {
+		o.Seed = s
+	}
+}
+
+// Purpose set to options
+func Purpose(p uint32) Option {
+	return func(o *Options) {
+		o.Purpose = p
