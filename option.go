@@ -151,3 +151,14 @@ func AddressIndex(a uint32) Option {
 func Path(path string) Option {
 	return func(o *Options) {
 		path = strings.TrimPrefix(path, "m/")
+		paths := strings.Split(path, "/")
+		if len(paths) != 5 {
+			return
+		}
+		o.Purpose = PathNumber(paths[0])
+		o.CoinType = PathNumber(paths[1])
+		o.Account = PathNumber(paths[2])
+		o.Change = PathNumber(paths[3])
+		o.AddressIndex = PathNumber(paths[4])
+	}
+}
