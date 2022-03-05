@@ -77,3 +77,14 @@ func (o *Options) GetPath() []uint32 {
 
 // Params set to options
 func Params(p *chaincfg.Params) Option {
+	return func(o *Options) {
+		o.Params = p
+	}
+}
+
+// Mnemonic set to options
+func Mnemonic(m string) Option {
+	return func(o *Options) {
+		o.Mnemonic = m
+	}
+}
