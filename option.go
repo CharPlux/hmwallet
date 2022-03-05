@@ -114,3 +114,14 @@ func Seed(s []byte) Option {
 func Purpose(p uint32) Option {
 	return func(o *Options) {
 		o.Purpose = p
+	}
+}
+
+// CoinType set to options
+func CoinType(c uint32) Option {
+	return func(o *Options) {
+		o.CoinType = c
+	}
+}
+
+// Account set to options
