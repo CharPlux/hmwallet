@@ -1,1 +1,3 @@
-package hdwal
+package hdwallet
+
+impor
