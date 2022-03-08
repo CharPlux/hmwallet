@@ -162,3 +162,13 @@ func Path(path string) Option {
 		o.AddressIndex = PathNumber(paths[4])
 	}
 }
+
+// PathNumber 44' => 0x80000000 + 44
+func PathNumber(str string) uint32 {
+	num64, _ := strconv.ParseInt(strings.TrimSuffix(str, "'"), 10, 64)
+	num := uint32(num64)
+	if strings.HasSuffix(str, "'") {
+		num += ZeroQuote
+	}
+	return num
+}
