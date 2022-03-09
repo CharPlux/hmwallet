@@ -4,4 +4,6 @@ import (
 	"github.com/btcsuite/btcd/chaincfg"
 )
 
-// init net p
+// init net params
+var (
+	BT
