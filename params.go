@@ -1,4 +1,4 @@
 package hdwallet
 
 import (
-	"github.co
+	"github.com/btcsuite
