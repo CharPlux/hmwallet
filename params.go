@@ -6,4 +6,5 @@ import (
 
 // init net params
 var (
-	BTCParams        = chaincfg.Main
+	BTCParams        = chaincfg.MainNetParams
+	BT
