@@ -1,4 +1,7 @@
 package hdwallet
 
 import (
-	"github.com/btcsuite/btcd/chai
+	"github.com/btcsuite/btcd/chaincfg"
+)
+
+/
