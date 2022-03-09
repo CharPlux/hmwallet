@@ -6,4 +6,4 @@ import (
 
 // init net params
 var (
-	BT
+	BTCParams  
