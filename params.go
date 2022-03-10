@@ -8,3 +8,4 @@ import (
 var (
 	BTCParams        = chaincfg.MainNetParams
 	BTCTestnetParams = chaincfg.TestNet3Params
+	LTCPara
