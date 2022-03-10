@@ -7,4 +7,4 @@ import (
 // init net params
 var (
 	BTCParams        = chaincfg.MainNetParams
-	BTCTestnetP
+	BTCTestnetParams = 
