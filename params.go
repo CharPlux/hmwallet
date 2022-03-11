@@ -9,4 +9,5 @@ var (
 	BTCParams        = chaincfg.MainNetParams
 	BTCTestnetParams = chaincfg.TestNet3Params
 	LTCParams        = chaincfg.MainNetParams
-	DOGEParams       = chaincfg.MainNet
+	DOGEParams       = chaincfg.MainNetParams
+	DA
