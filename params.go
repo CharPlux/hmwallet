@@ -11,4 +11,4 @@ var (
 	LTCParams        = chaincfg.MainNetParams
 	DOGEParams       = chaincfg.MainNetParams
 	DASHParams       = chaincfg.MainNetParams
-	BCHParams        = c
+	BCHParams        = chaincfg.Mai
