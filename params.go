@@ -12,4 +12,5 @@ var (
 	DOGEParams       = chaincfg.MainNetParams
 	DASHParams       = chaincfg.MainNetParams
 	BCHParams        = chaincfg.MainNetParams
-	QTUMParams       = chaincfg.
+	QTUMParams       = chaincfg.MainNetParams
+	US
