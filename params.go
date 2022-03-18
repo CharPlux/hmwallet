@@ -13,4 +13,4 @@ var (
 	DASHParams       = chaincfg.MainNetParams
 	BCHParams        = chaincfg.MainNetParams
 	QTUMParams       = chaincfg.MainNetParams
-	US
+	USDTParams   
