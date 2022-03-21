@@ -16,4 +16,5 @@ var (
 	USDTParams       = chaincfg.MainNetParams
 )
 
-func 
+func init() {
+	// 
