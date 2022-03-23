@@ -17,4 +17,5 @@ var (
 )
 
 func init() {
-	// ltc net para
+	// ltc net params
+	// https://g
