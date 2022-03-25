@@ -18,4 +18,4 @@ var (
 
 func init() {
 	// ltc net params
-	// https://g
+	// https://github.com/l
