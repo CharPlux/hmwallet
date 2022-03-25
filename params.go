@@ -18,4 +18,4 @@ var (
 
 func init() {
 	// ltc net params
-	// https://github.com/l
+	// https://github.com/litecoin-project
