@@ -19,4 +19,5 @@ var (
 func init() {
 	// ltc net params
 	// https://github.com/litecoin-project/litecoin/blob/master/src/chainparams.cpp
-	LTCParams.Bech32HRP
+	LTCParams.Bech32HRPSegwit = "ltc"
+	
