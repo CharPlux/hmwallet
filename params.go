@@ -21,4 +21,5 @@ func init() {
 	// https://github.com/litecoin-project/litecoin/blob/master/src/chainparams.cpp
 	LTCParams.Bech32HRPSegwit = "ltc"
 	LTCParams.PubKeyHashAddrID = 0x30 // 48
-	LTCParams.ScriptHashAddrID =
+	LTCParams.ScriptHashAddrID = 0x32 // 50
+	LTCPa
