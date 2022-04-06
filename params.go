@@ -22,4 +22,4 @@ func init() {
 	LTCParams.Bech32HRPSegwit = "ltc"
 	LTCParams.PubKeyHashAddrID = 0x30 // 48
 	LTCParams.ScriptHashAddrID = 0x32 // 50
-	LTCParams.PrivateK
+	LTCParams.PrivateKeyID = 0xb
