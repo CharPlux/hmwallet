@@ -24,4 +24,5 @@ func init() {
 	LTCParams.ScriptHashAddrID = 0x32 // 50
 	LTCParams.PrivateKeyID = 0xb0     // 176
 
-	// doge net 
+	// doge net params
+	// 
