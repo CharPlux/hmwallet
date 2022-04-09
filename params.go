@@ -25,4 +25,4 @@ func init() {
 	LTCParams.PrivateKeyID = 0xb0     // 176
 
 	// doge net params
-	// https://gi
+	// https://github.com/doge
