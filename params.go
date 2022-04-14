@@ -26,4 +26,5 @@ func init() {
 
 	// doge net params
 	// https://github.com/dogecoin/dogecoin/blob/master/src/chainparams.cpp
-	DOGEParams.PubKeyHashAddrID = 0x1e
+	DOGEParams.PubKeyHashAddrID = 0x1e // 30
+	
