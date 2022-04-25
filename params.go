@@ -30,4 +30,4 @@ func init() {
 	DOGEParams.ScriptHashAddrID = 0x16 // 22
 	DOGEParams.PrivateKeyID = 0x9e     // 158
 
-	// das
+	// dash net pa
