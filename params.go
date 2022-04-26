@@ -31,4 +31,4 @@ func init() {
 	DOGEParams.PrivateKeyID = 0x9e     // 158
 
 	// dash net params
-	
+	// http
