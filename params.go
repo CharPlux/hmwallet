@@ -31,4 +31,4 @@ func init() {
 	DOGEParams.PrivateKeyID = 0x9e     // 158
 
 	// dash net params
-	// https://github.com/dashpay/dash
+	// https://github.com/dashpay/dash/blob/master/src/ch
