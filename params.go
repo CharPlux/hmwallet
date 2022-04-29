@@ -33,4 +33,4 @@ func init() {
 	// dash net params
 	// https://github.com/dashpay/dash/blob/master/src/chainparams.cpp
 	DASHParams.PubKeyHashAddrID = 0x4c // 76
-	DASHParams.ScriptH
+	DASHParams.ScriptHashAddrID
