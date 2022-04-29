@@ -32,4 +32,4 @@ func init() {
 
 	// dash net params
 	// https://github.com/dashpay/dash/blob/master/src/chainparams.cpp
-	DASHParams.PubKey
+	DASHParams.PubKeyHashA
