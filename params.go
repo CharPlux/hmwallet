@@ -34,4 +34,6 @@ func init() {
 	// https://github.com/dashpay/dash/blob/master/src/chainparams.cpp
 	DASHParams.PubKeyHashAddrID = 0x4c // 76
 	DASHParams.ScriptHashAddrID = 0x10 // 16
-	DASHParams.PrivateKeyID = 0xcc     // 
+	DASHParams.PrivateKeyID = 0xcc     // 204
+
+	// bc
