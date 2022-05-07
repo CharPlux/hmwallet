@@ -37,4 +37,4 @@ func init() {
 	DASHParams.PrivateKeyID = 0xcc     // 204
 
 	// bch net params
-	// htt
+	// https://github.com/Bit
