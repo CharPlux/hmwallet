@@ -36,4 +36,5 @@ func init() {
 	DASHParams.ScriptHashAddrID = 0x10 // 16
 	DASHParams.PrivateKeyID = 0xcc     // 204
 
-	// bc
+	// bch net params
+	// htt
