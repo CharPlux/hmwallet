@@ -37,4 +37,4 @@ func init() {
 	DASHParams.PrivateKeyID = 0xcc     // 204
 
 	// bch net params
-	// https://github.com/Bit
+	// https://github.com/Bitcoin-ABC
