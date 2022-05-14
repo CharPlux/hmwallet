@@ -39,4 +39,4 @@ func init() {
 	// bch net params
 	// https://github.com/Bitcoin-ABC/bitcoin-abc/blob/master/src/chainparams.cpp
 	BCHParams.PubKeyHashAddrID = 0x00 // 0
-	BCHParams.ScriptHash
+	BCHParams.ScriptHashAddrID = 0x05
