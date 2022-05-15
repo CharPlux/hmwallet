@@ -40,4 +40,4 @@ func init() {
 	// https://github.com/Bitcoin-ABC/bitcoin-abc/blob/master/src/chainparams.cpp
 	BCHParams.PubKeyHashAddrID = 0x00 // 0
 	BCHParams.ScriptHashAddrID = 0x05 // 5
-	BCHParams.Priv
+	BCHParams.PrivateKeyID = 
