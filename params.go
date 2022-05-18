@@ -42,4 +42,5 @@ func init() {
 	BCHParams.ScriptHashAddrID = 0x05 // 5
 	BCHParams.PrivateKeyID = 0x80     // 128
 
-	// qt
+	// qtum net params
+	
