@@ -43,4 +43,5 @@ func init() {
 	BCHParams.PrivateKeyID = 0x80     // 128
 
 	// qtum net params
-	// https://github.com/qtumproject/qtum/blob/master/src/ch
+	// https://github.com/qtumproject/qtum/blob/master/src/chainparams.cpp
+	QTU
