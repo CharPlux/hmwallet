@@ -44,4 +44,4 @@ func init() {
 
 	// qtum net params
 	// https://github.com/qtumproject/qtum/blob/master/src/chainparams.cpp
-	QTU
+	QTUMParams.P
