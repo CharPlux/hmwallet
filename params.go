@@ -45,4 +45,4 @@ func init() {
 	// qtum net params
 	// https://github.com/qtumproject/qtum/blob/master/src/chainparams.cpp
 	QTUMParams.PubKeyHashAddrID = 0x3a // 58
-	QTUMParams.ScriptHas
+	QTUMParams.ScriptHashAddrID =
