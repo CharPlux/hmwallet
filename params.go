@@ -47,3 +47,5 @@ func init() {
 	QTUMParams.PubKeyHashAddrID = 0x3a // 58
 	QTUMParams.ScriptHashAddrID = 0x32 // 50
 	QTUMParams.PrivateKeyID = 0x80     // 128
+
+	// usdt net 
