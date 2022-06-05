@@ -49,4 +49,4 @@ func init() {
 	QTUMParams.PrivateKeyID = 0x80     // 128
 
 	// usdt net params
-	// https://github
+	// https://github.com/OmniLayer
