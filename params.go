@@ -49,4 +49,5 @@ func init() {
 	QTUMParams.PrivateKeyID = 0x80     // 128
 
 	// usdt net params
-	// https://github.com/OmniLayer/omnicore/blob/master/src/chai
+	// https://github.com/OmniLayer/omnicore/blob/master/src/chainparams.cpp
+	USDT
