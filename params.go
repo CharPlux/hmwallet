@@ -50,4 +50,5 @@ func init() {
 
 	// usdt net params
 	// https://github.com/OmniLayer/omnicore/blob/master/src/chainparams.cpp
-	USDTParams.PubKeyHashAddrID = 0x00 
+	USDTParams.PubKeyHashAddrID = 0x00 // 0
+	USDTParams.Scri
