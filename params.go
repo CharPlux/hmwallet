@@ -52,4 +52,4 @@ func init() {
 	// https://github.com/OmniLayer/omnicore/blob/master/src/chainparams.cpp
 	USDTParams.PubKeyHashAddrID = 0x00 // 0
 	USDTParams.ScriptHashAddrID = 0x05 // 5
-	USDTParams.PrivateKeyID = 0x80
+	USDTParams.PrivateKeyID = 0x80     // 12
