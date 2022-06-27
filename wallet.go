@@ -1,3 +1,3 @@
 package hdwallet
 
-var coins
+var coins = make(map[ui
