@@ -6,4 +6,4 @@ var coins = make(map[uint32]func(*Key) Wallet)
 type Wallet interface {
 	GetType() uint32
 	GetName() string
-	GetSymbo
+	GetSymbol() str
