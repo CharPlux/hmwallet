@@ -7,4 +7,5 @@ type Wallet interface {
 	GetType() uint32
 	GetName() string
 	GetSymbol() string
-	GetK
+	GetKey() *Key
+	Ge
