@@ -8,4 +8,4 @@ type Wallet interface {
 	GetName() string
 	GetSymbol() string
 	GetKey() *Key
-	GetAddress() 
+	GetAddress() (string, e
