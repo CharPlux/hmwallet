@@ -15,3 +15,10 @@ func newBTC(key *Key) Wallet {
 	return &btc{
 		name:   "Bitcoin",
 		symbol: "BTC",
+		key:    key,
+	}
+}
+
+func (c *btc) GetType() uint32 {
+	return c.key.Opt.CoinType
+}
