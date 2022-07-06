@@ -22,3 +22,19 @@ func newBTC(key *Key) Wallet {
 func (c *btc) GetType() uint32 {
 	return c.key.Opt.CoinType
 }
+
+func (c *btc) GetName() string {
+	return c.name
+}
+
+func (c *btc) GetSymbol() string {
+	return c.symbol
+}
+
+func (c *btc) GetKey() *Key {
+	return c.key
+}
+
+func (c *btc) GetAddress() (string, error) {
+	return c.key.AddressBTC()
+}
