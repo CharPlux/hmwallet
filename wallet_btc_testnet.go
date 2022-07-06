@@ -19,3 +19,10 @@ func newBTCTestnet(key *Key) Wallet {
 		key:    key,
 	}
 }
+
+func (c *btcTestnet) GetType() uint32 {
+	return c.key.Opt.CoinType
+}
+
+func (c *btcTestnet) GetName() string {
+	return c.name
