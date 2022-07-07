@@ -26,3 +26,16 @@ func (c *btcTestnet) GetType() uint32 {
 
 func (c *btcTestnet) GetName() string {
 	return c.name
+}
+
+func (c *btcTestnet) GetSymbol() string {
+	return c.symbol
+}
+
+func (c *btcTestnet) GetKey() *Key {
+	return c.key
+}
+
+func (c *btcTestnet) GetAddress() (string, error) {
+	return c.key.AddressBTC()
+}
