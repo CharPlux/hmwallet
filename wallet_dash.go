@@ -4,4 +4,4 @@ func init() {
 	coins[DASH] = newDASH
 }
 
-ty
+type das
