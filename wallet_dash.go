@@ -8,4 +8,4 @@ type dash struct {
 	*btc
 }
 
-f
+func n
