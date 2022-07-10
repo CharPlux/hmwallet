@@ -5,4 +5,7 @@ func init() {
 }
 
 type dash struct {
-	*b
+	*btc
+}
+
+f
