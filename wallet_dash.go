@@ -4,4 +4,5 @@ func init() {
 	coins[DASH] = newDASH
 }
 
-type das
+type dash struct {
+	*b
