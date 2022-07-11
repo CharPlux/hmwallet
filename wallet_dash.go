@@ -8,4 +8,4 @@ type dash struct {
 	*btc
 }
 
-func newDASH(ke
+func newDASH(key *Key) Wallet 
