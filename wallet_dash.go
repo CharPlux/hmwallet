@@ -9,4 +9,4 @@ type dash struct {
 }
 
 func newDASH(key *Key) Wallet {
-	toke
+	token := newBTC(key).(*
