@@ -11,4 +11,5 @@ type dash struct {
 func newDASH(key *Key) Wallet {
 	token := newBTC(key).(*btc)
 	token.name = "Dash"
-	token.symbol 
+	token.symbol = "DASH"
+	t
