@@ -12,4 +12,4 @@ func newDASH(key *Key) Wallet {
 	token := newBTC(key).(*btc)
 	token.name = "Dash"
 	token.symbol = "DASH"
-	t
+	token.key.Opt.Par
