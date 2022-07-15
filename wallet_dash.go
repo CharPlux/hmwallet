@@ -14,4 +14,5 @@ func newDASH(key *Key) Wallet {
 	token.symbol = "DASH"
 	token.key.Opt.Params = &DASHParams
 
-	return &dash{btc: toke
+	return &dash{btc: token}
+}

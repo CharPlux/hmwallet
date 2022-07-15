@@ -1,0 +1,4 @@
+
+package hdwallet
+
+func init() {
