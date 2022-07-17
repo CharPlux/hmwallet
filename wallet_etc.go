@@ -33,3 +33,11 @@ func (c *etc) GetName() string {
 
 func (c *etc) GetSymbol() string {
 	return c.symbol
+}
+
+func (c *etc) GetKey() *Key {
+	return c.key
+}
+
+func (c *etc) GetAddress() (string, error) {
+	return crypto.PubkeyToAddress(*c.key.PublicECDSA).Hex(), nil
