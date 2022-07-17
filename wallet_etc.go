@@ -17,3 +17,10 @@ type etc struct {
 
 func newETC(key *Key) Wallet {
 	return &etc{
+		name:   "Ethereum Classic",
+		symbol: "ETC",
+		key:    key,
+	}
+}
+
+func (c *etc) GetType() uint32 {
