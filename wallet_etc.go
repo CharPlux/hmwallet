@@ -41,3 +41,4 @@ func (c *etc) GetKey() *Key {
 
 func (c *etc) GetAddress() (string, error) {
 	return crypto.PubkeyToAddress(*c.key.PublicECDSA).Hex(), nil
+}
