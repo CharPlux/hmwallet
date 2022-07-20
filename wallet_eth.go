@@ -1,4 +1,5 @@
 package hdwallet
 
 import (
-	"github.com/ethereum/go-et
+	"github.com/ethereum/go-ethereum/crypto"
+)
