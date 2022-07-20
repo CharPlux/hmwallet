@@ -1,4 +1,4 @@
 package hdwallet
 
 import (
-	"github.com/ethe
+	"github.com/ethereum/go-et
