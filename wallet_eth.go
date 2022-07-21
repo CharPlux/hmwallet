@@ -5,4 +5,4 @@ import (
 )
 
 func init() {
-	
+	coins[ETH] 
