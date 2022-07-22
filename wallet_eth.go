@@ -5,4 +5,7 @@ import (
 )
 
 func init() {
-	coins[ETH] 
+	coins[ETH] = newETH
+}
+
+type et
