@@ -10,4 +10,4 @@ func init() {
 
 type eth struct {
 	name   string
-	sym
+	symbol stri
