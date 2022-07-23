@@ -8,4 +8,5 @@ func init() {
 	coins[ETH] = newETH
 }
 
-type eth struct
+type eth struct {
+	name 
