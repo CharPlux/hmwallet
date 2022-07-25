@@ -13,4 +13,4 @@ type eth struct {
 	symbol string
 	key    *Key
 
-	// et
+	// eth token
