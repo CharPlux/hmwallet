@@ -11,4 +11,6 @@ func init() {
 type eth struct {
 	name   string
 	symbol string
-	key    
+	key    *Key
+
+	// et
