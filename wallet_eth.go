@@ -14,4 +14,7 @@ type eth struct {
 	key    *Key
 
 	// eth token
-	contract
+	contract string
+}
+
+fun
