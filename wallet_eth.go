@@ -17,4 +17,5 @@ type eth struct {
 	contract string
 }
 
-func newETH(key *Key) Walle
+func newETH(key *Key) Wallet {
+	return &
