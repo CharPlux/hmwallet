@@ -19,4 +19,4 @@ type eth struct {
 
 func newETH(key *Key) Wallet {
 	return &eth{
-		nam
+		name:   "Ethereum"
