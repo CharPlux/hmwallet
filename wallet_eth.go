@@ -25,4 +25,4 @@ func newETH(key *Key) Wallet {
 	}
 }
 
-func (c *eth
+func (c *eth) GetTy
