@@ -21,4 +21,4 @@ func newETH(key *Key) Wallet {
 	return &eth{
 		name:   "Ethereum",
 		symbol: "ETH",
-		
+		key:    key,
