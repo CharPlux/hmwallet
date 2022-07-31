@@ -25,4 +25,4 @@ func newETH(key *Key) Wallet {
 	}
 }
 
-func (c *eth) GetTy
+func (c *eth) GetType() uint32 
