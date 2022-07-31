@@ -26,4 +26,5 @@ func newETH(key *Key) Wallet {
 }
 
 func (c *eth) GetType() uint32 {
-	return c.key.Op
+	return c.key.Opt.CoinType
+}
