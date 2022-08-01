@@ -30,4 +30,5 @@ func (c *eth) GetType() uint32 {
 }
 
 func (c *eth) GetName() string {
-	
+	return c.name
+}
