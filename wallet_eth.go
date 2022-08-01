@@ -29,4 +29,5 @@ func (c *eth) GetType() uint32 {
 	return c.key.Opt.CoinType
 }
 
-func (c *eth) GetName(
+func (c *eth) GetName() string {
+	
