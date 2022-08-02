@@ -33,4 +33,4 @@ func (c *eth) GetName() string {
 	return c.name
 }
 
-func (c *
+func (c *eth) GetS
