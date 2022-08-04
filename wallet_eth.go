@@ -33,4 +33,5 @@ func (c *eth) GetName() string {
 	return c.name
 }
 
-func (c *eth) GetSymbol() string 
+func (c *eth) GetSymbol() string {
+	return
