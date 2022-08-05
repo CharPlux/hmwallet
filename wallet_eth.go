@@ -34,4 +34,7 @@ func (c *eth) GetName() string {
 }
 
 func (c *eth) GetSymbol() string {
-	return c.symbo
+	return c.symbol
+}
+
+func 
