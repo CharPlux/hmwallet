@@ -37,4 +37,5 @@ func (c *eth) GetSymbol() string {
 	return c.symbol
 }
 
-func (c *eth) GetKey
+func (c *eth) GetKey() *Key {
+	
