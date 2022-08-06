@@ -41,4 +41,4 @@ func (c *eth) GetKey() *Key {
 	return c.key
 }
 
-func (
+func (c *eth) Ge
