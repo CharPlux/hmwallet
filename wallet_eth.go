@@ -41,4 +41,4 @@ func (c *eth) GetKey() *Key {
 	return c.key
 }
 
-func (c *eth) GetAddress()
+func (c *eth) GetAddress() (string, er
