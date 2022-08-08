@@ -42,4 +42,4 @@ func (c *eth) GetKey() *Key {
 }
 
 func (c *eth) GetAddress() (string, error) {
-	retur
+	return crypto.PubkeyToA
