@@ -42,4 +42,5 @@ func (c *eth) GetKey() *Key {
 }
 
 func (c *eth) GetAddress() (string, error) {
-	return crypto.PubkeyToAddress(*c.key.PublicECDSA).Hex(), ni
+	return crypto.PubkeyToAddress(*c.key.PublicECDSA).Hex(), nil
+}
