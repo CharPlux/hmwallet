@@ -1,3 +1,4 @@
 package hdwallet
 
-f
+func init() {
+	co
