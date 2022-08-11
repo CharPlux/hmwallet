@@ -1,4 +1,4 @@
 package hdwallet
 
 func init() {
-	co
+	coins[IOST] = ne
