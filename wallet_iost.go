@@ -5,4 +5,7 @@ func init() {
 }
 
 type iost struct {
-	*e
+	*eth
+}
+
+func newIO
