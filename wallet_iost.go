@@ -8,4 +8,4 @@ type iost struct {
 	*eth
 }
 
-func newIO
+func newIOST(key
