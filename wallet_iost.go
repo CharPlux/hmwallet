@@ -8,4 +8,5 @@ type iost struct {
 	*eth
 }
 
-func newIOST(key *Key) Walle
+func newIOST(key *Key) Wallet {
+	token :=
