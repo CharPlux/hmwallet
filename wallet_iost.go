@@ -8,4 +8,4 @@ type iost struct {
 	*eth
 }
 
-func newIOST(key
+func newIOST(key *Key) Walle
