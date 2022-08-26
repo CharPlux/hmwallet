@@ -10,4 +10,4 @@ type iost struct {
 
 func newIOST(key *Key) Wallet {
 	token := newETH(key).(*eth)
-	t
+	token.name
