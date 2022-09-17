@@ -12,4 +12,4 @@ func newIOST(key *Key) Wallet {
 	token := newETH(key).(*eth)
 	token.name = "Internet of Services"
 	token.symbol = "IOST"
-	token.contract = "0xfa1a856cfa34
+	token.contract = "0xfa1a856cfa3409cfa145fa4e2
