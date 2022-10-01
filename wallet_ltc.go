@@ -1,4 +1,6 @@
 package hdwallet
 
 func init() {
-	coins[LTC] = 
+	coins[LTC] = newLTC
+}
+
