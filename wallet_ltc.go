@@ -4,3 +4,4 @@ func init() {
 	coins[LTC] = newLTC
 }
 
+type ltc str
