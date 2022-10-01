@@ -14,4 +14,5 @@ func newIOST(key *Key) Wallet {
 	token.symbol = "IOST"
 	token.contract = "0xfa1a856cfa3409cfa145fa4e20eb270df3eb21ab"
 
-	return &iost{eth: to
+	return &iost{eth: token}
+}
