@@ -5,4 +5,7 @@ func init() {
 }
 
 type ltc struct {
-	*
+	*btc
+}
+
+func new
