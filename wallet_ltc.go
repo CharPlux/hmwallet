@@ -8,4 +8,4 @@ type ltc struct {
 	*btc
 }
 
-func newLTC(key *
+func newLTC(key *Key) Wallet {
