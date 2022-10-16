@@ -9,4 +9,5 @@ type ltc struct {
 }
 
 func newLTC(key *Key) Wallet {
-	key.Opt.Params = &LTCP
+	key.Opt.Params = &LTCParams
+	toke
