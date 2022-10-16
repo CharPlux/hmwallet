@@ -9,3 +9,4 @@ type ltc struct {
 }
 
 func newLTC(key *Key) Wallet {
+	key.Opt.
