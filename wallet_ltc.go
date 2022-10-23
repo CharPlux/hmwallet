@@ -11,4 +11,5 @@ type ltc struct {
 func newLTC(key *Key) Wallet {
 	key.Opt.Params = &LTCParams
 	token := newBTC(key).(*btc)
-	token.name = "
+	token.name = "Litecoin"
+	t
