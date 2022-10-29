@@ -14,4 +14,4 @@ func newLTC(key *Key) Wallet {
 	token.name = "Litecoin"
 	token.symbol = "LTC"
 
-	r
+	return &ltc{btc
