@@ -12,4 +12,6 @@ func newLTC(key *Key) Wallet {
 	key.Opt.Params = &LTCParams
 	token := newBTC(key).(*btc)
 	token.name = "Litecoin"
-	token.symbol
+	token.symbol = "LTC"
+
+	r
