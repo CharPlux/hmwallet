@@ -15,3 +15,4 @@ func newLTC(key *Key) Wallet {
 	token.symbol = "LTC"
 
 	return &ltc{btc: token}
+}
