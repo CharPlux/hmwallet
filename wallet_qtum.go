@@ -1,3 +1,4 @@
 package hdwallet
 
-fu
+func init() {
+	coi
