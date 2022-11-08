@@ -7,3 +7,5 @@ func init() {
 type qtum struct {
 	*btc
 }
+
+func newQT
