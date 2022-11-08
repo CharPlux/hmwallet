@@ -4,4 +4,5 @@ func init() {
 	coins[QTUM] = newQTUM
 }
 
-type qtu
+type qtum struct {
+	
