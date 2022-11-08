@@ -5,4 +5,5 @@ func init() {
 }
 
 type qtum struct {
-	
+	*btc
+}
