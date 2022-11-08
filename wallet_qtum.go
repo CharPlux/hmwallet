@@ -8,4 +8,4 @@ type qtum struct {
 	*btc
 }
 
-func newQT
+func newQTUM(key *Ke
