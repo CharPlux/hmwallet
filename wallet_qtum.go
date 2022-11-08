@@ -1,4 +1,4 @@
 package hdwallet
 
 func init() {
-	coi
+	coins[QTU
