@@ -8,4 +8,5 @@ type qtum struct {
 	*btc
 }
 
-func newQTUM(key *Ke
+func newQTUM(key *Key) Wallet {
+	to
