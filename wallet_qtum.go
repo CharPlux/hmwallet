@@ -10,4 +10,4 @@ type qtum struct {
 
 func newQTUM(key *Key) Wallet {
 	token := newBTC(key).(*btc)
-	token
+	token.name = "Q
