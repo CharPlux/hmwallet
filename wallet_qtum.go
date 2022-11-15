@@ -9,4 +9,4 @@ type qtum struct {
 }
 
 func newQTUM(key *Key) Wallet {
-	to
+	token := newB
