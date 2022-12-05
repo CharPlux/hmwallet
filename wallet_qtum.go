@@ -14,4 +14,5 @@ func newQTUM(key *Key) Wallet {
 	token.symbol = "QTUM"
 	token.key.Opt.Params = &QTUMParams
 
-	return &qtum{btc: 
+	return &qtum{btc: token}
+}
