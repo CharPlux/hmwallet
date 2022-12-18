@@ -1,2 +1,3 @@
 package hdwallet
 
+func init() 
