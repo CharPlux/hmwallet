@@ -1,4 +1,4 @@
 package hdwallet
 
 func init() {
-	coins[US
+	coins[USDT] = newUSD
