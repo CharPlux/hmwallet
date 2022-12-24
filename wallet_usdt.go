@@ -1,3 +1,4 @@
 package hdwallet
 
-func init() 
+func init() {
+	coins[US
