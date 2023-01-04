@@ -4,4 +4,4 @@ func init() {
 	coins[USDT] = newUSDT
 }
 
-ty
+type usdt st
