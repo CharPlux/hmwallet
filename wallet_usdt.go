@@ -4,4 +4,5 @@ func init() {
 	coins[USDT] = newUSDT
 }
 
-type usdt st
+type usdt struct {
+	*btc
