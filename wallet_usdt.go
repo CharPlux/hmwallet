@@ -6,3 +6,6 @@ func init() {
 
 type usdt struct {
 	*btc
+}
+
+func ne
