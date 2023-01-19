@@ -9,4 +9,4 @@ type usdt struct {
 }
 
 func newUSDT(key *Key) Wallet {
-	token := newBTC
+	token := newBTC(key).(*btc)
