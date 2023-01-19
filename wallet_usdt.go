@@ -8,4 +8,4 @@ type usdt struct {
 	*btc
 }
 
-func newUSDT(ke
+func newUSDT(key *Key) Walle
