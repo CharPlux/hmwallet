@@ -11,4 +11,5 @@ type usdt struct {
 func newUSDT(key *Key) Wallet {
 	token := newBTC(key).(*btc)
 	token.name = "Tether"
-	token.symbol = "
+	token.symbol = "USDT"
+	
