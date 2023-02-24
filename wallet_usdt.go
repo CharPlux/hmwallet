@@ -14,4 +14,4 @@ func newUSDT(key *Key) Wallet {
 	token.symbol = "USDT"
 	token.key.Opt.Params = &USDTParams
 
-	re
+	return &usdt
