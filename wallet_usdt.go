@@ -12,4 +12,6 @@ func newUSDT(key *Key) Wallet {
 	token := newBTC(key).(*btc)
 	token.name = "Tether"
 	token.symbol = "USDT"
-	token.key.Opt.Params = &USDT
+	token.key.Opt.Params = &USDTParams
+
+	re
