@@ -1,4 +1,4 @@
-## go-hdwallet
+## hmwallet
 
 A multi-cryptocurrency HD wallet implementated by golang.
 
@@ -16,12 +16,6 @@ A multi-cryptocurrency HD wallet implementated by golang.
 - IOST
 - USDC
 
-## install
-
-```sh
-go get -v -u github.com/foxnut/go-hdwallet
-```
-
 ## example
 
 ```go
@@ -30,7 +24,7 @@ package main
 import (
     "fmt"
 
-    "github.com/foxnut/go-hdwallet"
+    "github.com/g33kplux/hmwallet"
 )
 
 var (
